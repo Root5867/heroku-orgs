@@ -14,5 +14,9 @@
   "keywords": [
     "heroku-plugin"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/raulb/heroku-orgs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
