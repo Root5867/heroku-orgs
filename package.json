@@ -17,6 +17,10 @@
   "license": "ISC",
   "homepage": "https://github.com/raulb/heroku-orgs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jshint"
+  },
+  "dependencies": {
+    "heroku-client": "^1.9.1",
+    "cli-table": "^0.3.1"
   }
 }
