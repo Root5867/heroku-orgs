@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "heroku-client": "^1.9.1",
-    "cli-table": "^0.3.1",
+    "columnify": "^1.4.1",
     "lodash": "^3.1.0"
   }
 }

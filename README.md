@@ -15,11 +15,16 @@ How to install this plugin
 $ heroku plugins:install heroku-orgs
 ```
 
-[WIP] Now you could do things like 
+[WIP] Available:
 -------------------
 
 ```bash
-$ heroku _orgs:list
+$ heroku _orgs
+$ heroku _apps # alias to heroku apps --personal
+$ heroku _apps -x
+$ heroku _apps --all
+$ heroku _apps --all -x
+$ heroku _apps --org ORG_NAME
 ```
 
 
