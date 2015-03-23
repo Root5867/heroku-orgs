@@ -25,6 +25,7 @@ $ heroku _apps -x
 $ heroku _apps --all
 $ heroku _apps --all -x
 $ heroku _apps --org ORG_NAME
+$ heroku access --app APP_NAME
 ```
 
 

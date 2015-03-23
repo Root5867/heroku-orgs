@@ -20,6 +20,7 @@
     "test": "jshint"
   },
   "dependencies": {
+    "co": "^4.4.0",
     "heroku-client": "^1.9.1",
     "columnify": "^1.4.1",
     "lodash": "^3.1.0"

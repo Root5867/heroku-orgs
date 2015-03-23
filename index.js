@@ -4,7 +4,7 @@ exports.topics = [{
 }];
 
 exports.commands = [
-  require('./lib/commands/orgs/list'),
-  require('./lib/commands/apps/list'),
-  require('./lib/commands/access/list')
+  require('./lib/orgs'),
+  require('./lib/apps'),
+  require('./lib/access')
 ];
