@@ -26,6 +26,8 @@ $ heroku _apps --all
 $ heroku _apps --all -x
 $ heroku _apps --org ORG_NAME
 $ heroku access --app APP_NAME
+$ heroku access:add user@email.com --app APP
+$ heroku access:remove user@email.com --app APP
 ```
 
 
