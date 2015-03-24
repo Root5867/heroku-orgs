@@ -6,5 +6,5 @@ exports.topics = [{
 exports.commands = [
   require('./lib/orgs'),
   require('./lib/apps'),
-  require('./lib/access')
+  require('./lib/access/list')
 ];
