@@ -8,5 +8,6 @@ exports.commands = [
   require('./lib/apps'),
   require('./lib/access/list'),
   require('./lib/access/add'),
-  require('./lib/access/remove')
+  require('./lib/access/remove'),
+  require('./lib/access/update')
 ];

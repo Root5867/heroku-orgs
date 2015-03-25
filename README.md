@@ -28,6 +28,7 @@ $ heroku _apps --org ORG_NAME
 $ heroku access --app APP_NAME
 $ heroku access:add user@email.com --app APP
 $ heroku access:add user@email.com --app APP --privileges deploy,manage,view,operate # This feature is in BETA
+$ heroku access:update user@email.com --app APP --privileges deploy,manage,view,operate # This feature is in BETA
 $ heroku access:remove user@email.com --app APP
 ```
 
