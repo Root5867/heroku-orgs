@@ -14,15 +14,22 @@
   "keywords": [
     "heroku-plugin"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/raulb/heroku-orgs",
   "scripts": {
-    "test": "jshint"
+    "test": "jshint . && mocha"
   },
   "dependencies": {
-    "co": "^4.4.0",
-    "heroku-client": "^1.9.1",
-    "columnify": "^1.4.1",
-    "lodash": "^3.1.0"
+    "co": "*",
+    "heroku-client": "*",
+    "columnify": "*",
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "jshint": "*",
+    "mocha": "*",
+    "nock": "*",
+    "netrc": "*"
   }
 }
