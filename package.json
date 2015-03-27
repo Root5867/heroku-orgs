@@ -14,7 +14,7 @@
   "keywords": [
     "heroku-plugin"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/raulb/heroku-orgs",
   "scripts": {
     "test": "jshint . && mocha"
