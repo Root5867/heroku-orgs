@@ -91,11 +91,11 @@ gistdeck
 
 ```bash
 $ heroku _apps -x # alias to `heroku apps --personal -x`
-aqueous-hollows-5902        owner
+aqueous-hollows-5902        owner             me@domain.com
 circuit                     collaborator      email@domain.com
-blooming-spire-4703         owner
+blooming-spire-4703         owner             me@domain.com
 gistdeck                    collaborator      another@domain.com
-plog-raulb                  owner
+plog-raulb                  owner             me@domain.com
 ```
 
 ```bash
@@ -115,7 +115,7 @@ nameless-scrubland-2032
 ```
 
 ```bash
-$ heroku apps --all -x
+$ heroku _apps --all -x
 agile-atoll-4414           org        org-name-1
 ancient-scrubland-7277     org        org-name-1
 aqueous-hollows-5902       personal   email@domain.com
